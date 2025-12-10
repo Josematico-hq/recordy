@@ -2,6 +2,9 @@
 
 This file contains context and instructions for the Gemini agent working on this project.
 
+## Strict Rules
+- **No Bypassing Quality/Security Checks**: It is STRICTLY FORBIDDEN to bypass code rules, tests, or any quality system and security mechanisms just "to make something work". If a rule is being violated, you MUST analyze why. If the rule guards security or best practices, it MUST NOT be bypassed or modified. Instead, the feature/code/solution MUST be improved to comply.
+
 ## Git Workflow
 - **Conventional Commits**: All git commit messages MUST follow the [Conventional Commits](https://www.conventionalcommits.org/) specification.
   - Format: `<type>(<scope>): <description>`
