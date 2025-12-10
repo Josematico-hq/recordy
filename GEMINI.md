@@ -11,3 +11,6 @@ This file contains context and instructions for the Gemini agent working on this
 ## Quality Control
 - **Static Analysis**: It is MANDATORY to perform static code analysis (linting/formatting) before marking any code-related task (creation, modification, deletion) as complete.
   - Run `bun check` (or equivalent) to verify.
+
+## Package Manager
+- **Bun**: It is MANDATORY to use [Bun](https://bun.sh/) as the package manager.
