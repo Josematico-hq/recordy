@@ -14,8 +14,8 @@
     "windows": [
       {
         "title": "recordy",
-        "width": 600,
-        "height": 120,
+        "width": 440,
+        "height": 70,
         "decorations": false,
         "transparent": true,
         "shadow": false,

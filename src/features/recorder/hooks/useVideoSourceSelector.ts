@@ -6,8 +6,8 @@ import {
 } from "@/services/window-service";
 
 const RECORDER_WINDOW_DIMENSIONS: WindowDimensions = {
-  width: 600,
-  collapsedHeight: 60,
+  width: 440,
+  collapsedHeight: 70,
   expandedHeight: 400,
 };
 
