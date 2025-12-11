@@ -3,20 +3,16 @@ import { DragHandle } from "./features/recorder/components/DragHandle";
 import { RecorderBar } from "./features/recorder/components/RecorderBar";
 import { VideoSourceSelector } from "./features/recorder/components/VideoSourceSelector";
 import { useRecorderWindow } from "./features/recorder/hooks/useRecorderWindow";
-import { useVideoSourceSelector } from "./features/recorder/hooks/useVideoSourceSelector";
 
 function App() {
   const { startDragging } = useRecorderWindow();
-  const { isOpen, onOpenChange, expandDirection } = useVideoSourceSelector();
 
   return (
-    <div
-      className={`flex flex-col h-screen w-full ${expandDirection === "up" ? "justify-end" : "justify-start"}`}
-    >
+    <div className="flex flex-col h-screen w-full items-center justify-center">
       <RecorderBar>
         <DragHandle onDragStart={startDragging} />
 
-        <VideoSourceSelector isOpen={isOpen} onOpenChange={onOpenChange} />
+        <VideoSourceSelector />
 
         <div className="w-px h-6 bg-zinc-700" />
 
